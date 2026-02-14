@@ -6,7 +6,7 @@ import globalError from "../../../constant/globalError";
 const route = express.Router();
 
 const storage = multer.diskStorage({
-  destination: (_, _2, cb) => {
+  destination: (_, __, cb) => {
     cb(null, "img/");
   },
   filename: (_, file, cb) => {
