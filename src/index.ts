@@ -7,6 +7,7 @@ import cookieParser from "cookie-parser";
 import createWebSocket from "./socket";
 import verifyJSON from "./utils/server/verifyJSON";
 import globalErrorHandler from "./utils/server/globalErrorHandler";
+import multer from "multer";
 
 const app = express();
 

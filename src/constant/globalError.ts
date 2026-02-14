@@ -5,6 +5,7 @@ const AllCodeInfo = {
     description: "Неправильный формат данных",
   },
   "US-10100": { codeResponse: 409, message: "Ошибка почты" },
+  "US-10200": { codeResponse: 404, message: "Не найдено" },
 } as const;
 
 type AllCodeInfoType = typeof AllCodeInfo;
